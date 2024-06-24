@@ -26,4 +26,5 @@ jobs:
     - run: npm rebuild
 
     - name: Start application
+      run: npm start
       run: pm2 --name MyApp start npm -- start
